@@ -701,3 +701,7 @@ end)
 local mod = main:Button("teleport",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/AbDM2er1"))()
 end)
+
+local mod = main:Button("Blox Fruits",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DragonHubXyz/XyzGen/main/UI%20Libs'))()
+end)
