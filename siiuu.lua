@@ -705,3 +705,7 @@ end)
 local mod = main:Button("Blox Fruits",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/DragonHubXyz/XyzGen/main/UI%20Libs'))()
 end)
+
+local mod = main:Button("FullBright",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
+end)
