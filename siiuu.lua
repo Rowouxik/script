@@ -711,3 +711,14 @@ local mod = main:Button("Doors",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
 end)
+
+local mod = main:Button("Destroy GUI",function()
+		
+local guiObject = game.StarterGui.ScreenGui.Frame
+
+while true do
+guiObject.Visible = false
+wait(2)
+guiObject.Visible = true
+end
+end)
