@@ -712,7 +712,7 @@ local mod = main:Button("Doors",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
 end)
 
-local mod = main:Button("Destroy GUI",function()
+local mod = main:Button("Aim",function()
 		
 PLAYER  = game.Players.LocalPlayer
 MOUSE   = PLAYER:GetMouse()
@@ -948,3 +948,5 @@ repeat
 		FIND()
 	end
 until ESP_ENABLED == false
+
+end)
