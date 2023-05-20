@@ -799,7 +799,7 @@ GUI_TARGET.BackgroundTransparency  = 0.5
 GUI_TARGET.BackgroundColor         = BrickColor.new('Fossil')
 GUI_TARGET.BorderSizePixel         = 0
 GUI_TARGET.Position                = UDim2.new(0.5,-100,0,0)
-GUI_TARGET.Text                    = 'AIMBOT : OFF'
+GUI_TARGET.Text                    = 'AIMBOT : ON'
 GUI_TARGET.TextColor3              = Color3.new(1,1,1)
 GUI_TARGET.TextStrokeTransparency  = 1
 GUI_TARGET.TextWrapped             = true
@@ -937,7 +937,7 @@ game:GetService('RunService').RenderStepped:connect(function()
 			end
 			GUI_TARGET.Text = 'AIMBOT : '.. TARGET.Name:sub(1, 5)
 		else
-			GUI_TARGET.Text = 'AIMBOT : OFF'
+			GUI_TARGET.Text = 'AIMBOT : ON'
 		end
 	end
 end)
