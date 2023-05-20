@@ -712,8 +712,6 @@ local mod = main:Button("Doors",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
 end)
 
-local mod = main:Button("Aim",function()
-		
-loadstring(game:HttpGet('https://raw.githubusercontent.com/XorV2/script/main/Unfair'))()		
-		
+local mod = main:Button("Aim",function()		
+loadstring(game:HttpGet('https://raw.githubusercontent.com/XorV2/script/main/Unfair'))()				
 end)
